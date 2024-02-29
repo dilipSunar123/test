@@ -29,5 +29,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/Test_OR_01/Page_CUR
 WebUI.verifyElementPresent(findTestObject('Object Repository/Test_OR_01/Page_CURA Healthcare Service/h3_We Care About Your Health'), 
     0)
 
+WebUI.verifyElementPresent(findTestObject('Test_OR_01/Page_CURA Healthcare Service/a_Make Appointment'), 0)
+
 WebUI.click(findTestObject('Object Repository/Test_OR_01/Page_CURA Healthcare Service/a_Make Appointment'))
 
